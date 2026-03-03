@@ -21,6 +21,8 @@
 12. [Menjalankan Aplikasi Flutter](#12--menjalankan-aplikasi-flutter)
 13. [Troubleshooting & Masalah Umum](#13--troubleshooting--masalah-umum)
 14. [Tips & Trik Tambahan](#14--tips--trik-tambahan)
+15. [Menampilkan Layar HP ke Laptop (Screen Mirroring)](#15--menampilkan-layar-hp-ke-laptop-screen-mirroring)
+
 
 ---
 
@@ -808,7 +810,37 @@ Di VS Code, untuk membungkus widget dengan widget lain:
 
 ---
 
+---
+
+## 15. 🖥️ Menampilkan Layar HP ke Laptop (Screen Mirroring)
+
+Jika kamu menggunakan **HP fisik** dan ingin menampilkan layarnya di laptop agar mudah saat demo atau coding, cara terbaik adalah menggunakan **scrcpy**.
+
+### Langkah-langkah:
+
+1. **Download scrcpy** (Screen Copy):
+   👉 [https://github.com/Genymobile/scrcpy/releases](https://github.com/Genymobile/scrcpy/releases)
+   Pilih versi Windows (misal: `scrcpy-win64-vX.X.zip`)
+
+2. **Extract file ZIP** tersebut ke folder pilihanmu (misal: `C:\scrcpy`)
+
+3. **Pastikan USB Debugging Aktif** di HP kamu (sudah dijelaskan di [Bagian 9](#alternatif-gunakan-hp-android-fisik))
+
+4. **Hubungkan HP ke Laptop** via USB.
+
+5. **Jalankan scrcpy**:
+   - Buka folder `C:\scrcpy`
+   - Klik 2x pada file `scrcpy.exe`
+   - Layar HP kamu akan muncul di laptop! 🚀
+
+> [!TIP]
+> Agar lebih mudah, kamu bisa menambahkan folder `C:\scrcpy` ke **Environment Variables (PATH)** (sama seperti cara di [Langkah 5](#5--setting-environment-variable-path)). 
+> Setelah itu, kamu cukup ketik `scrcpy` di Command Prompt mana saja untuk menampilkan layar.
+
+---
+
 ## 📝 Checklist Setup
+
 
 Gunakan checklist ini untuk memastikan semua langkah sudah dilakukan:
 
